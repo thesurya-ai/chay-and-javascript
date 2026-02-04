@@ -22,6 +22,7 @@ let myDate = new Date()
 // console.log(myTimeStamp);
 // console.log(myCretedDate.getTime());
 // console.log(Math.floor(Date.now()/1000));
+// console.log(typeof);
 
 let newDate = new Date()
 console.log(newDate);
