@@ -1,4 +1,4 @@
-// dates 
+// dates time
 
 
 let myDate = new Date()
@@ -30,8 +30,7 @@ console.log(newDate.getDay());
 console.log(newDate.getFullYear());
 
 newDate.toLocaleString('default', {
-    weekday: "long",
-    
+    weekday: "long",    
     
 })
 
