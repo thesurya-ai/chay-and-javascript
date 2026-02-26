@@ -20,8 +20,8 @@ const regularUser = {
     }
 }
 
-console.log(regularUser.fullname.userfullname);//output: { userfullname: { firstname: 'Rishi', lastname: 'kant' } }
-console.log(regularUser.email)
+// console.log(regularUser.fullname.userfullname);//output: { userfullname: { firstname: 'Rishi', lastname: 'kant' } }
+// console.log(regularUser.email)
 
 //combining object
 
@@ -59,10 +59,37 @@ const user = [
 ]
 
 user[1].email
-console.log(tinderUser);
-console.log(Object.keys(tinderUser))
-console.log(Object.values(tinderUser))
-console.log(Object.entries(tinderUser))
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser))
+// console.log(Object.values(tinderUser))
+// console.log(Object.entries(tinderUser))
 
 
+
+const course = {
+    coursename: "js in Hindi",
+    price: "999",
+    courseInstructor: "Hitesh"
+}
+
+// course.courseInstructor
+
+// const {courseInstructor} = course// isase bhi sahi ans aayega
+// console.log(courseInstructor);
+
+const {courseInstructor: instructor} = course
+console.log(instructor);
+
+// const nacvbar = ({company}) => {
+         
+// }// this is react js de-Structureing
+
+// nacvbar(company = "hitesh")
+
+/********concept of API's******/
+//   {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+//   }
 
